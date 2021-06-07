@@ -11,8 +11,10 @@ Exercício 1:
                 else [ $x -ge 0 ]
                 echo "esse numero e positivo"
         fi
-
-Exercíco 2:
+#autor:
+Clarissa Assunção
+#descrição:
+Exercíco 2
 
 #!/bin/bash
 echo "qual e o ano atual?"
@@ -29,7 +31,24 @@ else
         echo "voce nao pode votar"
 fi
 
-Exercíco 4: 
+#autor:
+Clarissa Assunção 
+#descrição: 
+Exercício 3
+
+#!/bin/bash
+
+i=1
+while [ $i -le 10 ]
+do
+        echo "- $i"
+        i=$((i+1))
+done
+
+#autor:
+Clarissa Assunção 
+#descrição:
+Exercíco 4 
 
 #!/bin/bash
 i=10
@@ -39,7 +58,24 @@ do
         i=$((i-1))
 done
 
-Exercíco 6: 
+#autor:
+CLarissa Assunção
+#descrição:
+Exercício 5
+
+!#/bin/bash
+
+echo "Digite um número:"
+read x
+        for i in $(seq 1 $x)
+        do
+                echo "- $i"
+        done
+
+#autor:
+Clarissa Assunção
+#descrição:
+Exercíco 6 
 
 #!/bin/bash
 
@@ -55,6 +91,9 @@ read x
       echo "digite um numero maior que 0"
       fi
 
+#autor:
+Clarissa Assunção
+#descrição:
 Exercício 7:
 
 #!/bin/bash
