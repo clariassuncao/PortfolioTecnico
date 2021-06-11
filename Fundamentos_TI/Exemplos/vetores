@@ -1,1 +1,37 @@
+#autor:
+Clarissa
+#descrição:
+Exercíco 1 - loop apresentando os nomes escolidos
+
+vetor[0]="Edson"
+vetor[1]="Clarissa"
+vetor[2]="Miguel"
+for i in ${vetor[@]}
+do
+        echo "Oi, meu nome eu sou $i!"
+done
+
+#autor:
+Clarissa
+#descrição:
+Exercício 2 - loop apresentando os nomes escolhidos 
+
+vetor[0]="Gabrielle"
+vetor[1]="Emanuelle"
+vetor[2]="Th..o"
+ 
+tam_vetor=${#vetor[@]}
+i=0
+while [ $i -lt $tam_vetor ]
+do
+        echo "Oi, eu sou ${vetor[$i]}."
+        i=$((i+1))
+done
+
+#autor:
+Clarissa
+#descrição:
+Exercćico 3 - 
+
+
 
